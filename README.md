@@ -8,7 +8,7 @@ In `Date.java` do the following:
 - Complete the `toString` method so that it returns a string in the YYYY-MM-DD format if the given date is valid. Otherwise, return `"invalid"`. For example, `toString(2024, 7, 4)` returns `"2024-07-04` and `toString(2023,2,29)` returns `"invalid"`.
 - Complete the `monthString` method so that it returns a string that represents the given month in an abbreviated form, if the given month is valid. Otherwise, return `"invalid"`. For example, `monthString(6)` returns `"JUNE"` and `monthString(0)` returns `"invalid"`.
 
-In `DateTest.java` do the following in the `main` method:
+Create a class named `DateTest` and do the following in the `main` method:
 - Thoroughly test each method to verify that it works correctly. For example,
   -  `isValid(2024,13,40) == false`
   -  `toString(2024,2,29).equals("2024-02-29")`
